@@ -10,6 +10,7 @@ public class BreakWall {
 		for (int i = 0; i < wall.get(0).size(); i++) {
 			length += wall.get(0).get(i);
 		}
+		
 		// in case the wall was on the special case [[l],[l],....,[l]].
 		boolean found = false;
 		for (int j = 1;!found && j < wall.size() ; j++) {
