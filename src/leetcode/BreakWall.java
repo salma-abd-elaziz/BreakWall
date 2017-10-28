@@ -1,6 +1,8 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class BreakWall {
 
@@ -10,14 +12,14 @@ public class BreakWall {
 		for (int i = 0; i < wall.get(0).size(); i++) {
 			length += wall.get(0).get(i);
 		}
-		
 		// in case the wall was on the special case [[l],[l],....,[l]].
 		boolean found = false;
 		for (int j = 1;!found && j < wall.size() ; j++) {
 			if (wall.get(j).size() != wall.get(j-1).size()) found = true;
 		}
 		
-		if (!found) {
+		if (!found && wall.get(0).size() == 1) {
+			
 			return wall.size();
 		}
 		// For each unit in the length, try to draw the line.
