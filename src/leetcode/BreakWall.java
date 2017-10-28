@@ -1,46 +1,36 @@
 package leetcode;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
 
 public class BreakWall {
 
 	public int leastBricks(ArrayList<ArrayList<Integer>> wall) {
-		int crossedBreakesNo =Integer.MAX_VALUE;
-		// To know where to try to put a line.
-		Set<Integer> placeToTry= new HashSet<Integer>();
+		int crossedBreakesNo =Integer.MIN_VALUE;
+		HashMap<Integer, Integer> passedLines = new HashMap<>();
 		for (int j = 0; j < wall.size(); j++) {
 			ArrayList<Integer> row = wall.get(j);
 			int sum = 0;
 			for (int k = 0; k < row.size() - 1; k++) {
 				sum += row.get(k);
-				placeToTry.add(sum);
-			}
-		}
-
-		// For each unit in the length, try to draw the line.
-		for (Integer i : placeToTry){
-			int lineCrossedBreakesNo = 0;
-			for (int j = 0; j < wall.size(); j++) {
-				ArrayList<Integer> row = wall.get(j);
-				int sum = 0;
-				for (int k = 0; k < row.size(); k++) {
-					sum += row.get(k);
-					if (sum == i)
-						break; // Not crossed.
-					if (sum > i) { // crossed.
-						lineCrossedBreakesNo++;
-						break;
-					}
+				// Update the map that there is a line doesn't 
+				// cross a break at length sum.
+				if (passedLines.containsKey(sum)) {
+					passedLines.put(sum, passedLines.get(sum)+1);
+				} else {
+				passedLines.put(sum, 1);
 				}
 			}
-			// After finding the no of crossed breaks at line i.
-			if (crossedBreakesNo > lineCrossedBreakesNo)
-				crossedBreakesNo = lineCrossedBreakesNo;
 		}
-		// in case the wall was on the special case [[l],[l],....,[l]].
-		return crossedBreakesNo == Integer.MAX_VALUE? wall.size() : crossedBreakesNo;
+		// find the maximum number in map ,that is the maximum number of breaks 
+		// isn't being crossed by  a line.
+		for (Integer breaksNo : passedLines.values()) 
+			if (breaksNo > crossedBreakesNo) crossedBreakesNo = breaksNo;
+		
+		// // in case the wall was on the special case [[l],[l],....,[l]].
+		if (crossedBreakesNo == Integer.MIN_VALUE) return wall.size();
+		// Return the number of crossed breaks.
+		return wall.size() - crossedBreakesNo;
 	}
 
 }
