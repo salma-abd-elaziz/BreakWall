@@ -2,4 +2,5 @@
 
 This repository contains leetcode example :
 
-554.BrickWall
+554.Brick Wall
+696. Count Binary Substrings
