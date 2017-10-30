@@ -7,6 +7,7 @@ public class CountBinarySubstrings {
 	 * in these substrings are grouped consecutively.
 	 */
 	public int countBinarySubstrings(String s) {
+		if (s == null) return 0;
 		int length = s.length();
 		// Dynamic programming.
 		int[][] frontScan = new int[length][2];
@@ -31,6 +32,7 @@ public class CountBinarySubstrings {
 				backScan[i][1] = 1 + (i + 1 < length ? backScan[i + 1][1] : 0);
 			}
 		}
+		// If length = 0 the algorithm will return 0.
 		int numberOfSubstrings = 0;
 		for (int i = 0; i < length - 1; i++) {
 			numberOfSubstrings += Math.min(frontScan[i][0], backScan[i + 1][1]);
