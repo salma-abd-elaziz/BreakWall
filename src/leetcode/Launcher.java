@@ -76,5 +76,10 @@ public class Launcher {
 		d = new ArrayList<Integer>();
 		
 		System.out.println(s.leastBricks(wall));
+		
+		//=====================
+		SubarraySumEqualsk c = new SubarraySumEqualsk();
+		int[] k = {1, 1 ,1};
+		System.out.println(c.subarraySum(k, 2));
 	}
 }
