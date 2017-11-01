@@ -7,5 +7,4 @@ This repository contains leetcode example :
 696. Count Binary Substrings
 
 560. Subarray Sum Equals K
-
 1. Two Sum
