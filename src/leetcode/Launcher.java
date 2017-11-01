@@ -79,7 +79,7 @@ public class Launcher {
 		
 		//=====================
 		SubarraySumEqualsk c = new SubarraySumEqualsk();
-		int[] k = {1, 1 ,1};
-		System.out.println(c.subarraySum(k, 2));
+		int[] k = {1, 5, 5, 2, 3, 7};
+		System.out.println(c.subarraySum(k, 10));
 	}
 }

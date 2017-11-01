@@ -1,5 +1,8 @@
 package leetcode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SubarraySumEqualsk {
 
 	/*Given an array of integers and an integer k,
@@ -25,5 +28,17 @@ public class SubarraySumEqualsk {
             } 
         }
         return subarraycount;
-    }
+        
+        // More optimized solution.
+        int ans = 0, prefix = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
+        for (int num : nums) {
+            prefix += num;
+            ans += map.getOrDefault(prefix - k, 0);
+            map.put(prefix, map.getOrDefault(prefix, 0) + 1);
+        }
+        return ans;
+    }	
+	
 }
