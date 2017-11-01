@@ -1,7 +1,6 @@
 package leetcode;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class SubarraySumEqualsk {
 
@@ -28,10 +27,14 @@ public class SubarraySumEqualsk {
             } 
         }
         return subarraycount;
+	}
+	
+	
+	// More optimized solution.
+	public int  subarraySum2(int[] nums, int k){
         
-        // More optimized solution.
         int ans = 0, prefix = 0;
-        Map<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer> ();
         map.put(0, 1);
         for (int num : nums) {
             prefix += num;
