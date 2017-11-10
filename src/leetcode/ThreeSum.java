@@ -7,7 +7,7 @@ import java.util.List;
 public class ThreeSum {
 	public List<List<Integer>> threeSum(int[] nums) {
         // Using the two sum problem to solve this problem,
-        // by finding the if there is 2 number equals the third one.
+        // by finding the if there is 2 number equal the third one.
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         for (int i = 0; i < nums.length; i++) {
@@ -16,7 +16,7 @@ public class ThreeSum {
             // search for the number in the rest of the array. a+b = -c
             List<List<Integer>> twoSum = twoSum(nums,-1 * nums[i], i+1);
             for (List<Integer> list : twoSum) {
-                list.add(0, nums[i]); // Add the smallest element in the beginnig.
+                list.add(0, nums[i]); // Add the smallest element in the beginning.
                 result.add(list);
             }
         }
