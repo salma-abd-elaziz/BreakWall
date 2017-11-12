@@ -7,3 +7,4 @@ This repository contains leetcode example :
 4. Brick Wall (554)
 5. Count Binary Substrings (696)
 6. Subarray Sum Equals K (560)
+7. AddBinary (67)
