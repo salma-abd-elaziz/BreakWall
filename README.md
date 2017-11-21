@@ -34,3 +34,7 @@ This repository contains leetcode example :
 16. Preorder Traversal [L R P] (145)
 
 15. Maximum Subarray (53)
+
+16. Best Time to Buy and Sell Stock (121)
+
+17. 4 Sum (18)
