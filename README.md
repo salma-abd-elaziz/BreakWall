@@ -40,3 +40,7 @@ This repository contains leetcode example :
 17. 4 Sum (18)
 
 18. 4 Sum II (454)
+
+19. Best Time to Buy and Sell Stock II (122)
+
+20. Shuffle an Array (384)
