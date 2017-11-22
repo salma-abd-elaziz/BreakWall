@@ -44,3 +44,5 @@ This repository contains leetcode example :
 19. Best Time to Buy and Sell Stock II (122)
 
 20. Shuffle an Array (384)
+
+21. Factorial Trailing Zeroes (172)
