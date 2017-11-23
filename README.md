@@ -46,3 +46,5 @@ This repository contains leetcode example :
 20. Shuffle an Array (384)
 
 21. Factorial Trailing Zeroes (172)
+
+22. Majority Element (169)
