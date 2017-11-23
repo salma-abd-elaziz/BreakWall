@@ -15,7 +15,7 @@ public class MajorityElement {
 	 * returning the middle element
 	 */
 	
-	/* O(N) time, O(N) space */
+	/* O(N) time, O(N) space, where N is the size of the array*/
 	public int majorityElementI(int[] nums) {
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int num : nums) {

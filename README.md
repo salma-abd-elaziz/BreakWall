@@ -48,3 +48,15 @@ This repository contains leetcode example :
 21. Factorial Trailing Zeroes (172)
 
 22. Majority Element (169)
+
+23. Generate Parentheses (22)
+
+24. permute Array Elements (46)
+
+25. First Unique Character in a String (387)
+
+26. Valid Anagram (242)
+
+27. Delete a Node in LinkedList (237)
+
+28. Subsets (78)
