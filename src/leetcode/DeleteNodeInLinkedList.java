@@ -2,6 +2,11 @@ package leetcode;
 
 public class DeleteNodeInLinkedList {
 
+	/*
+	 * Write a function to delete a node (except the tail) in a singly linked
+	 * list, given only access to that node.
+	 */
+	
 	public class ListNode {
 		int val;
 		ListNode next;
