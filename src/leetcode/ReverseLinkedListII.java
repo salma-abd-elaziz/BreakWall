@@ -24,7 +24,8 @@ public class ReverseLinkedListII {
 	}
 
 	public ListNode reverseBetween(ListNode head, int m, int n) {
-		if (head == null) return null;
+		if (head == null)
+			return null;
 		int count = 0;
 		ListNode p = head;
 		ListNode dummy = new ListNode(0);
@@ -67,4 +68,41 @@ public class ReverseLinkedListII {
 		return new ReturnData(prev, cur);
 
 	}
+
+	// More readable code.
+	public ListNode reverseBetweenI(ListNode head, int m, int n) {
+		if (head == null || head.next == null || m == n)
+			return head;
+
+		// Dummy.
+		ListNode dummy = new ListNode(0);
+		dummy.next = head;
+
+		ListNode cur = null;
+		ListNode prev = dummy;
+
+		// Find the beginning.
+		for (int i = 0; i < m - 1; i++) {
+			prev = prev.next;
+		}
+		cur = prev.next; // The first
+
+		// Reverse.
+		ListNode start = cur.next;
+		ListNode prevre = cur;
+
+		for (int i = 0; i < n - m; i++) {
+			ListNode next = start.next;
+			start.next = prevre;
+			prevre = start;
+			start = next;
+		}
+		
+		// Set outer pointers.
+		prev.next = prevre;
+		cur.next = start;
+
+		return dummy.next;
+	}
+
 }
