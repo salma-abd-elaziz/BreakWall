@@ -68,3 +68,7 @@ This repository contains leetcode example :
 31. Reverse Linkedlist (206)
 
 32. Odd Even Linked List (328)
+
+33.  Kth Smallest Element in a BST (230)
+
+34. Reverse Linked List II (92)
