@@ -74,3 +74,7 @@ This repository contains leetcode example :
 36. Reverse Linked List II (92)
 
 37. Convert Sorted Array to Binary Search Tree (108)
+
+38. Intersection of Two Arrays II (350)
+
+39. Missing Number (268)
