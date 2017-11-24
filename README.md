@@ -64,3 +64,7 @@ This repository contains leetcode example :
 29. Merge two sorted Linkedlists ()
 
 30.  Contains Duplicate II (219)
+
+31. Reverse Linkedlist (206)
+
+32. Odd Even Linked List (328)
