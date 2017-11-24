@@ -60,3 +60,7 @@ This repository contains leetcode example :
 27. Delete a Node in LinkedList (237)
 
 28. Subsets (78)
+
+29. Merge two sorted Linkedlists ()
+
+30.  Contains Duplicate II (219)
