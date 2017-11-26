@@ -86,3 +86,5 @@ This repository contains leetcode example :
 42. Subsets II (90)
 
 43. Climbing Stairs (70)
+
+44. Power of Three (326)
