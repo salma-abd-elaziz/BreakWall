@@ -88,3 +88,7 @@ This repository contains leetcode example :
 43. Climbing Stairs (70)
 
 44. Power of Three (326)
+
+45. Number of 1 Bits (191)
+
+46. Symmetric Tree (101)
