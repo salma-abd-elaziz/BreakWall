@@ -5,8 +5,12 @@ import leetcode. KthSmallestElementInBST.TreeNode;
 public class Launcher {
 	
 	public static void main(String[] args) {
-		KthSmallestElementInBST o = new KthSmallestElementInBST();
-		TreeNode d = o.new TreeNode(4);
+		PermutationsII o = new PermutationsII();
+		int[] nums = new int [3];
+		nums[0] = 1;
+		nums[1] = 2;
+		nums[2] = 1;
+		o.permuteUnique(nums);
 		
 	}
 }

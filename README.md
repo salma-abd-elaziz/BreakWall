@@ -78,3 +78,11 @@ This repository contains leetcode example :
 38. Intersection of Two Arrays II (350)
 
 39. Missing Number (268)
+
+40. Find the Duplicate Number (287)
+
+41. Permutations II (47)
+
+42. Subsets II (90)
+
+43. Climbing Stairs (70)

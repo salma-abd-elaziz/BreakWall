@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.Arrays;
+
 public class MissingNumber {
 
 	/*
@@ -7,7 +9,7 @@ public class MissingNumber {
 	 * find the one that is missing from the array.
 	 */
 
-	// O(N) time, O(1) space.
+	// O(N) time, O(1) space. more optimized
 	public int missingNumber(int[] nums) {
 		int sum = 0;
 
@@ -42,5 +44,20 @@ public class MissingNumber {
 		}
 		return missing;
 	}
+	
+public int missingNumberII(int[] nums) {
+        
+        Arrays.sort(nums);
+        // 0 is missing ?
+        if (nums[0] != 0) return 0;
+        
+        for (int i = 1; i < nums.length; i++) {
+            if ((nums[i - 1] + 1) != nums[i]) {
+                return nums[i - 1] + 1;
+            }
+        }
+        // reached here then the last element is missing.
+        return nums.length;
+    }
 
 }
