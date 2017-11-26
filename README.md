@@ -92,3 +92,7 @@ This repository contains leetcode example :
 45. Number of 1 Bits (191)
 
 46. Symmetric Tree (101)
+
+47. Plus One (66)  
+
+48. Count and Say (38)
