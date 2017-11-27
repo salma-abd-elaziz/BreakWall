@@ -1,6 +1,6 @@
 package leetcode;
 
-public class NumberOF1Bits {
+public class HammingDisNumberOF1Bits {
 
 	// you need to treat n as an unsigned value
 	public int hammingWeight(int n) {

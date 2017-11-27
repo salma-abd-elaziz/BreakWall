@@ -110,3 +110,13 @@ This repository contains leetcode example :
 54. Valid Palindrome (125)
 
 55. Merge Sorted Array (88)
+
+56. Intersection of Two Linked Lists (160)
+
+57. Min Stack (155)
+
+58. Reverse Integer (7)
+
+59. Reverse Bits (190)
+
+60. Implement strStr() (28)
