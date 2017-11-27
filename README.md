@@ -120,3 +120,7 @@ This repository contains leetcode example :
 59. Reverse Bits (190)
 
 60. Implement strStr() (28)
+
+61. Sqrt(x) (69) 
+
+62. Count Primes (204)
