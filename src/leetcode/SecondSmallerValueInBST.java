@@ -19,7 +19,9 @@ public class SecondSmallerValueInBST {
 	 * Here we need to ask if duplicates are allowed or not as here the
 	 * duplicates are allowed, if not we could returned the parent of the most
 	 * left element in the tree.
-	 */ public int findSecondMinimumValue(TreeNode root) {
+	 */
+	
+	public int findSecondMinimumValue(TreeNode root) {
 		List<Integer> list = new ArrayList<Integer>();
 		inOrdertraverse(list, root);
 		int count = 1;

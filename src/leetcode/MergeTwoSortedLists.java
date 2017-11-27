@@ -1,6 +1,6 @@
 package leetcode;
 
-public class MergeTwoSortedArrays {
+public class MergeTwoSortedLists {
 	/**
 	 * Definition for singly-linked list.
 	 */

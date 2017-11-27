@@ -96,3 +96,17 @@ This repository contains leetcode example :
 47. Plus One (66)  
 
 48. Count and Say (38)
+
+49. Remove Duplicates from Sorted Array (26)
+
+50. Linked List Cycle (141)
+
+51. Linked List Cycle II (142)
+
+52. Palindrome Linked List (234)
+
+53. Valid Parentheses (20) 
+
+54. Valid Palindrome (125)
+
+55. Merge Sorted Array (88)
