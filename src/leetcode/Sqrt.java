@@ -12,9 +12,10 @@ public class Sqrt {
 		while (start <= end) {
 			int mid = (start + end) / 2;
 			
-			if (mid > x / mid) { // Division is bigger.
+			// left
+			if (mid > x / mid) { 
 				end = mid - 1;
-			} else {
+			} else { // Division is bigger.
 				ans = mid;
 				start = mid + 1;
 			}
