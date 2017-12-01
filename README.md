@@ -1,27 +1,27 @@
 # Leetcode
 
 This repository contains leetcode example :
-1. Two Sum (1)  {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/TwoSum.java}
+1. Two Sum (1) 
 
-2. 3Sum (15)  {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/ThreeSum.java}
+2. 3Sum (15)  
 
-3. Two Sum II - Input array is sorted (167) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/SortedTwoSum.java}
+3. Two Sum II - Input array is sorted (167) 
 
-4. Brick Wall (554) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/BreakWall.java}
+4. Brick Wall (554) 
 
-5. Count Binary Substrings (696) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/CountBinarySubstrings.java}
+5. Count Binary Substrings (696) 
 
-6. Subarray Sum Equals K (560)  {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/SubarraySumEqualsk.java}
+6. Subarray Sum Equals K (560)  
 
-7. AddBinary (67) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/AddBinary.java}
+7. AddBinary (67) 
 
-8. AddTwoNumbers (2) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/AddTwoNumbers.java}
+8. AddTwoNumbers (2) 
 
-9. Binary Tree Zigzag Level Order Traversal (103) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/BinaryTreeZigZagOrderTravers.java}
+9. Binary Tree Zigzag Level Order Traversal (103) 
 
-10. Max Depth of Binary Tree (104) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/MaxTreeDepth.java}
+10. Max Depth of Binary Tree (104) 
 
-11. Add Two Numbers Without +, - Operators (371) {https://github.com/salma-abd-elaziz/Leetcode/blob/master/src/leetcode/AddTwoNumbersWithoutusingAddOperator.java}
+11. Add Two Numbers Without +, - Operators (371) 
 
 12. move-zero (283)
 
@@ -142,3 +142,35 @@ This repository contains leetcode example :
 70. Remove Nth Node From End of List (19)
 
 71. Search in Rotated Sorted Array (33)
+
+72. Group Anagrams (49)
+
+73. Reorder List (143)
+
+74. Happy Number (202)
+
+75. Increasing Triplet Subsequence (334)
+
+76. Longest Increasing Subsequence (300)
+
+77. Validate Binary Search Tree (98)
+
+78. Merge Intervals (56)
+
+79. Insert Interval (57)
+
+80. Insert Delete GetRandom O(1) (380)
+
+81. Minimum Window Substring (76)
+
+82. Longest Substring with At Least K Repeating Characters (395)
+
+83. Longest Substring Which Contains k Unique Characters
+
+84. Reverse Words in a String (151)
+
+85. Isomorphic Strings (205)
+
+86. Longest Word in Dictionary through Deleting (524)
+
+87. Friend Circles (547)

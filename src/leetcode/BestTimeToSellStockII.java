@@ -41,7 +41,7 @@ public class BestTimeToSellStockII {
 		return profit;
 	}
 
-	// Another solution.
+	// Another solution. Greedy
 	public int maxProfitI(int[] prices) {
 		int maxprofit = 0;
 		for (int i = 1; i < prices.length; i++) {

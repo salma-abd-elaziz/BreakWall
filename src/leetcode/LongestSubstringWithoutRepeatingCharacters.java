@@ -32,7 +32,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 		// Set is the best use as a data structure as we need no repetition .
 		Set<Character> set = new HashSet<Character>();
 		while (j < s.length() && i < s.length()) {
-			if (!set.contains(s.charAt(j))) { // O(n)
+			if (!set.contains(s.charAt(j))) { 
 				set.add(s.charAt(j++));
 				len = Math.max(len, j - i); // substring [i, j)
 			} else { // Exists

@@ -23,7 +23,7 @@ public class ImplementstrStr {
 			if (haystack.charAt(i) == needle.charAt(j)) {
 				int k = i + 1;
 				for (j += 1; j < needle.length(); j++) {
-					// We need to check if k in ranege because a match might
+					// We need to check if k in range because a match might
 					// happen in end of the haystack like -> misa , ahhhh
 					if (k >= haystack.length() || haystack.charAt(k++) != needle.charAt(j))
 						break;
