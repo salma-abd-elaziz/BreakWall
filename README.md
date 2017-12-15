@@ -174,3 +174,15 @@ This repository contains leetcode example :
 86. Longest Word in Dictionary through Deleting (524)
 
 87. Friend Circles (547)
+
+88. Sort Colors (75)
+
+89. Find Peak Element (162)
+
+90. Perfect Squares (279)
+
+91. Populating Next Right Pointers in Each Node (116)
+
+92. Container With Most Water (11)
+
+93. Set Matrix Zeroes (73)

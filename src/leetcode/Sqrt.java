@@ -2,7 +2,7 @@ package leetcode;
 
 public class Sqrt {
 
-	/* Implement int sqrt(int x). */
+	/* Implement int sqrt(int x). O(log n) time*/
 	public int mySqrt(int x) {
 		if (x == 0) return 0;
 		if (x == 1) return 1;
