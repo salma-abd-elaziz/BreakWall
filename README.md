@@ -186,3 +186,19 @@ This repository contains leetcode example :
 92. Container With Most Water (11)
 
 93. Set Matrix Zeroes (73)
+
+94. Merge k Sorted Lists (23)
+
+95. Longest Consecutive Sequence (128)
+
+96. Count of Smaller Numbers After Self (315)
+
+97. Palindrome Partitioning (131)
+
+98. Course Schedule (207)
+
+99. Course Schedule II (210)
+
+100. Get the indices of an array after sorting :D 
+
+101. movies schedule

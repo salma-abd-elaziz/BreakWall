@@ -1,12 +1,12 @@
 package leetcode;
 
+import java.util.Arrays;
+
 public class Launcher {
 	
 	public static void main(String[] args) {
-		LongestSubstringWhichContains2UniqueCharacters o = new LongestSubstringWhichContains2UniqueCharacters();
-		int c = o.longestSubstringWithKUniqueChacaters("aaaabcaabaaa", 2);
-		System.out.println(c);
-		System.out.println(Integer.MAX_VALUE);
-		
+		Gettheindicesofanarrayaftersorting o = new Gettheindicesofanarrayaftersorting();
+		int[] nums = {6, 5, 1, 3, 2, 1};
+		System.out.println(Arrays.toString(o.indexTrackingSort(nums)));	
 	}
 }
