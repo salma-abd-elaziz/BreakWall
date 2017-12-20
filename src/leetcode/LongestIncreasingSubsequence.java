@@ -36,7 +36,7 @@ public class LongestIncreasingSubsequence {
 			return 0;
 		List<Integer> list = new ArrayList<Integer>();
 		for (int num : nums) {
-			if (list.size() == 0 || num < list.get(list.size() - 1)) {
+			if (list.size() == 0 || num > list.get(list.size() - 1)) {
 				list.add(num);
 			} else {
 				int index = getPlace(num, list);
