@@ -55,4 +55,32 @@ public class MinimumWindowSubstring {
 		}
 		return res;
 	}
+
+	// Not Working
+	public String minWindowI(String s, String t) {
+		// Alphabetic [A-z, a-z].
+		int[] map = new int[128];
+        String res = "";
+        int minLen = Integer.MAX_VALUE;
+        int start = 0;
+        int p1 = 0, p2 = 0;
+        int expandedLen = t.length();
+        char[] sArr = s.toCharArray();
+        for (char c : t.toCharArray()) map[c - 'A']++;
+        
+        while(p2 < s.length() && p1 < s.length()){
+            if (map[sArr[p2++] - 'A']-- > 0) expandedLen--;
+            while (expandedLen == 0) {
+                if (p2 - p1 < minLen) {
+                    start = p1;
+                    minLen = p2 - p1;
+                    res = s.substring(start, p2);
+                }
+                if (p1 >= s.length()) break;
+                // Find the next start.
+                if (map[sArr[p1++] - 'A']++ == 0 ) expandedLen++;
+            }
+        }
+        return res;
+    }
 }
