@@ -222,3 +222,5 @@ This repository contains leetcode example :
 110. Word Ladder (127)
 
 111. Minimum Genetic Mutation (433)
+
+112. Number Of Islands (200)
