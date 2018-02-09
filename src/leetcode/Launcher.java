@@ -22,9 +22,6 @@ public class Launcher {
 //		
 //		oo.ladderLength("hit", "cog", set);
 		
-		LetterCombinationsofaPhoneNumber o = new LetterCombinationsofaPhoneNumber();
-		
-		o.letterCombinations("23");
 		
 	}
 }
