@@ -226,3 +226,11 @@ This repository contains leetcode example :
 112. Number Of Islands (200)
 
 113. Letter Combinations of a Phone Number (17)
+
+114. Big Countries (595)
+
+115. Hamming Distance (461)
+
+116. Maximum Binary Tree (654)
+
+117. Partition Labels (763)
