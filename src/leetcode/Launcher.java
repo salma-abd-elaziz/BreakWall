@@ -2,6 +2,8 @@ package leetcode;
 
 import java.util.*;
 
+import leetcode.mathANDnumbers.ComplexNumberMultiplication;
+
 public class Launcher {
 	
 	public static void main(String[] args) {
@@ -21,7 +23,9 @@ public class Launcher {
 //		set.add("cog");
 //		
 //		oo.ladderLength("hit", "cog", set);
+		ComplexNumberMultiplication a = new ComplexNumberMultiplication();
 		
+		System.out.println( "answer : " + a.complexNumberMultiply("-1", "1i"));
 		
 	}
 }
