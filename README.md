@@ -238,3 +238,7 @@ This repository contains leetcode example :
 118. Complex Number Multiplication (537)
 
 119. Counting Bits (338)
+
+120. Find All Duplicates in an Array (442)
+
+121. Single Element in a Sorted Array (540)

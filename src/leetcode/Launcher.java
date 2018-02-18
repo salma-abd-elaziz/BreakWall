@@ -2,6 +2,7 @@ package leetcode;
 
 import java.util.*;
 
+import leetcode.arrays.FindAllDuplicatesinanArray;
 import leetcode.mathANDnumbers.ComplexNumberMultiplication;
 
 public class Launcher {
@@ -23,9 +24,9 @@ public class Launcher {
 //		set.add("cog");
 //		
 //		oo.ladderLength("hit", "cog", set);
-		ComplexNumberMultiplication a = new ComplexNumberMultiplication();
-		
-		System.out.println( "answer : " + a.complexNumberMultiply("-1", "1i"));
+		FindAllDuplicatesinanArray a =  new FindAllDuplicatesinanArray();
+		int[] aa = {9,4,9,2,7,8,8,3,4};
+		a.findDuplicates(aa);
 		
 	}
 }
