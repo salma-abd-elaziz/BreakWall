@@ -242,3 +242,7 @@ This repository contains leetcode example :
 120. Find All Duplicates in an Array (442)
 
 121. Single Element in a Sorted Array (540)
+
+122. Judge Route Circle (657) C++
+
+123. Number Complement (476) C++/Java
