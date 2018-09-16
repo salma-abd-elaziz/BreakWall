@@ -246,3 +246,9 @@ This repository contains leetcode example :
 122. Judge Route Circle (657) C++
 
 123. Number Complement (476) C++/Java
+
+124. Game of Life (289) 
+
+125. Search a 2D Matrix II (240)
+
+126. Word Break (139)
